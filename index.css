@@ -14,13 +14,22 @@ body {
     top: 60px
 }
 
-/* .table::after {
-    counter-increment: heading-counter;
-    content: counter(heading-counter);
-} */
 .container{
-    background-color: red;
+    background-color: transparent;
 }
+
+.side {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 60px;
+}
+
+.child {
+
+}
+
 .sub::after {
     counter-increment: heading-counter;
     content: counter(heading-counter);
