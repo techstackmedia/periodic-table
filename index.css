@@ -24,6 +24,18 @@ body {
     flex-direction: row;
     justify-content:space-evenly;
     margin-left: 60px;
+    font-size: 20px;
+}
+
+.side1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+    gap: 40px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 .child {
