@@ -7,7 +7,7 @@ body {
 
 .table {
     display: grid;
-    gap: 5px;
+    gap: 9px;
     text-align: center;
     width: 92%;
     counter-set: heading-counter;
